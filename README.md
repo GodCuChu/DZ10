@@ -23,6 +23,13 @@ else:
 ## Результат выполнения:
 
 [+] Потенциальная уязвимость обнаружена. Сервер вернул содержимое (показаны первые 300 символов):
-localhost name resolution is handled within DNS ...
-
-
+127.0.0.1       localhost
+# Example hosts file - start
+192.168.1.10    print-server.local
+10.0.0.5        papercut-mgmt
+# WebDAV mount points:
+C:\Program Files\PaperCut\WebApps\webdav\..\uploads\config.xml
+<Config>
+  <Enabled>true</Enabled>
+  <DeviceIntegration>enabled</DeviceIntegration>
+</Config>
